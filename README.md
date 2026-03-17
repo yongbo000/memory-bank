@@ -135,13 +135,13 @@ This means the agent doesn't need to be told to use memory -- it's part of the n
 
 ```bash
 # Install to both OpenCode and Claude Code
-curl -fsSL https://raw.githubusercontent.com/<user>/memory-bank/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yongbo000/memory-bank/main/install.sh | bash
 
 # Install to OpenCode only
-INSTALL_TARGET=opencode curl -fsSL https://raw.githubusercontent.com/<user>/memory-bank/main/install.sh | bash
+INSTALL_TARGET=opencode curl -fsSL https://raw.githubusercontent.com/yongbo000/memory-bank/main/install.sh | bash
 
 # Install to Claude Code only
-INSTALL_TARGET=claude curl -fsSL https://raw.githubusercontent.com/<user>/memory-bank/main/install.sh | bash
+INSTALL_TARGET=claude curl -fsSL https://raw.githubusercontent.com/yongbo000/memory-bank/main/install.sh | bash
 ```
 
 ### Manual install
@@ -149,7 +149,7 @@ INSTALL_TARGET=claude curl -fsSL https://raw.githubusercontent.com/<user>/memory
 Clone the repo and copy the skill to your agent's skill directory:
 
 ```bash
-git clone https://github.com/<user>/memory-bank.git
+git clone https://github.com/yongbo000/memory-bank.git
 
 # For OpenCode
 cp -r memory-bank ~/.config/opencode/skills/memory-bank

@@ -2,7 +2,7 @@
 # Install memory-bank skill for OpenCode / Claude Code
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/<user>/memory-bank/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/yongbo000/memory-bank/main/install.sh | bash
 #
 # Options (via env vars):
 #   INSTALL_TARGET=opencode   Install only to OpenCode
@@ -11,7 +11,7 @@
 
 set -e
 
-REPO_URL="https://github.com/<user>/memory-bank"
+REPO_URL="https://github.com/yongbo000/memory-bank"
 SKILL_NAME="memory-bank"
 INSTALL_TARGET="${INSTALL_TARGET:-all}"
 
@@ -64,7 +64,7 @@ install_to_dir() {
         done
     else
         # Remote install via curl
-        local raw_base="https://raw.githubusercontent.com/<user>/memory-bank/main"
+        local raw_base="https://raw.githubusercontent.com/yongbo000/memory-bank/main"
         info "Downloading from GitHub..."
         for file in "${SKILL_FILES[@]}"; do
             local target_file="${target_dir}/${file}"
