@@ -17,6 +17,8 @@ Your brain (context window) = RAM -- volatile, limited
 → Anything worth remembering goes into .memory/
 ```
 
+**Quick start:** [Install](#install) with one command, then type `/memory-bank init` in your agent.
+
 ## Design Philosophy
 
 ### Memory Lifecycle
